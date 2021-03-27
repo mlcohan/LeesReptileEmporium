@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Green and Black Dart Frog",
+      "description": "The Green and Black Dart Frog is a species of Poison Dart family. This species is found in Central and South America and thrives on the rainforest floor. These little frogs are usually a green and black color. It is their bright colors that warn predators of their poison glands. Their name can sometimes keep beginners from adopting them. But surprisingly they make a great beginner frog. These frogs are small, entertaining and energetic. They are normally searching for food and hopping around – one of their favorite foods is ants. A committed beginner can care for one provided they are aware of the risks of handling one.",
+      "price": 80,
+      "quantity": 5
+    },
+    {
+      "name": "Pacman Frog",
+      "description": "Pacman Frogs are another species found in the Amazonian Basin of South America. This species comes in several colors from orange-brown to lime green. They get their name due to their large mouths that take up half of their head! These frogs are bigger than most and can grow seven inches long. They use their dominant size to fiercely protect their territory in the wild. Because they can be aggressive and have sharp teeth owners should wear protective gloves when handling. Pacman Frogs thrive in captivity with the right care. This ease of captive living makes them suitable for someone learning how to care for a frog.",
+      "price": 50,
+      "quantity": 5
+    },
+    {
+      "name": "Tomato Frog",
+      "description": "This orange pet might remind you of a little cherry tomato! Tomato Frogs are found in northern Madagascar in a variety of environments (e.g. wooded coasts and rainforests). They can thrive in different habitats so are very hardy and adjust well to captive life. They are one of the smallest pet frogs at 2.5 to 4 inches long. They also have interesting behaviors like burrowing when kept in an aquarium. Tomato Frogs have become very popular in the pet trade due to their attractive bright color and small size.",
+      "price": 50,
+      "quantity": 5
+    },
+    {
+      "name": "African Bullfrog",
+      "description": "The African Bullfrog is one of the most unique amphibians on the planet. They are loved for their unique size and behaviors and spend the majority of the year buried underground. They are sometimes called Pixie Frogs due to their scientific name Pyxicephalus adspersus. This pet frog is bigger than most! Males are much larger than females and can grow up to 10 inches. Other than the fact they need a 20-gallon tank, the African Bullfrog does not have difficult care requirements. They are easy going and tolerate handling once in a while. This pet can live for 35 years with good husbandry.",
+      "price": 75,
+      "quantity": 5
+    },
+    {
+      "name": "Bumblebee Dart Frog",
+      "description": "Bumblebee Dart Frogs are found throughout South America. They are insectivores and eat small fruit flies and pinhead crickets. These unique pets are decorated with splotches of black and yellow. Beginners love them for their bright colors. They have very similar care requirements to their green and black relatives and are very easy to care for – provided you do not handle them often. Bumblebee Darts live well in a 10-gallon tank with 75℉ – 85℉ temperatures and high humidity. It will be hard to keep them healthy if you do not keep the humidity above 90%. These little yellow frogs can live for at least 10 years.",
+      "price": 80,
+      "quantity": 5
+    }
+  ]
