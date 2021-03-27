@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Corn Snake",
+    "description": "The Corn Snake is the most popular beginner snake. Native to the United States, they can be found in terrestrial habitats. These snakes are red-brown to orange, typically with dark red-black blotches, but a variety of colors can be found in many captive-bred snakes. Baby Corns are 10-12 inches long and grow to 3-4 feet long. They can be wild-caught (by professionals), but captive-bred are much healthier with better temperaments. An adult Corn Snake can be kept in a 20 gallon aquarium, which is about the size of a medium-large fish tank, and the tank should range from 72℉ to 90℉ from one side to the other. Corn Snakes like to eat pinky mice in captivity. They present very few medical problems, and any issues typically only arise with poor husbandry. Corn snakes can live up to 20 years. Overall, they have a very easy care regimen and a very gentle temperament that makes handling and taking care of them manageable, even for new snake owners!",
+    "price": 100,
+    "quantity": 5
+  },
+  {
+    "name": "Ball Python",
+    "description": "Ball Pythons get their name because of the “ball” they like to curl up in to feel safe. Native to west and central Africa, they like to live in grasslands, likely burrowing in rodent burrows. They are active at night and like to stay hidden during the day. They are typically brown with lighter patches, but captive-bred Ball Pythons come in a variety of colors. Adults are usually about 3.5-5 feet in length and can live 20-30 years. Ball Pythons are docile creatures and are reluctant to bite. They prefer to curl up in a ball when they feel threatened. They will likely grow out of this behavior if they are handled frequently. These Pythons eat mice, but it is their dietary-pickiness that makes beginner herpetologists wary. These pythons like to have their food served freshly killed or thawed. In general, Ball Pythons are a very common first snake, and aside from their occasional food pickiness, they have an easy care routine and are very tame to handle.",
+    "price": 200,
+    "quantity": 5
+  },
+  {
+    "name": "Rainbow Boa",
+    "description": "The Rainbow Boa is native to South America and is not usually recommended to beginners for its shy and nippy behavior, but has landed a spot on this list for its other redeeming qualities. First and foremost, Rainbow Boas are widely known and appreciated for their stunning colors. In the right light, they have a shiny, iridescent gleam to their skin. They require specialized husbandry and specific tank conditions of high heat and humidity because of their natural tropical habitat. They may be nippy and shy as babies, but the right Rainbow Boa can tame down as an adult with frequent handling. They may be more high maintenance, but the reward of a gorgeous reptile is a high one if the right amount of time and patience is put into their care. Best for a beginner who is ready for a big commitment and to learn about correct handling. Rainbow Boas are typically 5-9 feet long and can live to be more than 20 years old.",
+    "price": 600,
+    "quantity": 5
+  },
+  {
+    "name": "California King Snake",
+    "description": "The California King is the most popular subspecies of King Snake. Also native to the United States, they are typically a brown-black color with yellow bands, stripes, or speckles, growing to 2.5-5 feet long (about the same size as a Corn Snake). Unlike Corn Snakes, these reptiles are active during the day time instead of night time. They should, however, still have regular hours of daylight and darkness. Great for beginners as they can be housed in a 20 gallon tank. They eat mice in captivity and can live up to 20 years. This pet can be shy, but they are very docile with frequent handling. Instead of striking in anger when threatened, they would rather coil up to hide in defense. A reptile well-adapted to handling and living in captivity should not be afraid while it is being held. These snakes have basic care requirements with the benefit of being easy to handle with their calm temperament.",
+    "price": 170,
+    "quantity": 5
+  },
+  {
+    "name": "Milk Snake",
+    "description": "Like the California King, the Milk Snake is actually a separate species of the King Snake. They are native to the US and Mexico and commonly have black, white, and red body rings. Often found in the woods or rocky areas, they do not necessarily like to soak up sun, but rather enjoy soaking up heat from rocks and logs, so an under tank heater may be better for them. They otherwise have very basic care requirements and live up to 20 years. Not very large, this reptile can grow up to 2 feet during their first few years. Like other King species, Milk Snakes are very docile and rarely bite.",
+    "price": 200,
+    "quantity": 5
+  }
+]
