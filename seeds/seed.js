@@ -3,6 +3,7 @@ const { User, Animal, Cart } = require('../models');
 
 const userData = require('./userData.json');
 const animalData = require('./animal.json');
+const cartData = require('./cart.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -12,6 +13,9 @@ const seedDatabase = async () => {
   });
 
   const animals = await Animal.bulkCreate(animalData);
+
+  const cart = await Cart.bulkCreate(cartData);
+
 
   process.exit(0);
 };
