@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Bearded Dragon",
+      "description": "The Bearded Dragon is an all-round popular, outgoing, and easy-to-care-for lizard. They are one of the best reptile pets you can have. Beardies are native to Australia, and are known for the way they communicate with each other. They have folds of skin under their chin that puff out in a “beard”. Bearded Dragons are active during the day, and they are omnivorous, consuming a variety of fruits and insects. They eat a couple times a week and should also have a calcium supplement. These dragons are as sociable as lizards get. Most of the time, they tend to enjoy interactions with their owners. Many owners have claimed that each dragon has its own little personality. The Bearded Dragon’s overall ease of husbandry and friendly temperament make it a great beginner lizard. They grow 1-2 feet in length and generally live to 10-15 years.",
+      "price": 60,
+      "quantity": 5
+    },
+    {
+      "name": "Leopard Gecko",
+      "description": "Leopard Geckos are very popular and are widely known for being a great pet for beginner herpetologists. They are coated with a pattern of dark brown spots, much like the animal they are named after. They are entirely insectivorous and require calcium supplements. They are also nocturnal. Leopard Geckos are generally very docile, not likely to bite, and their ease of care makes them suitable for beginners. They like to vocalize, especially if they’re hungry, so they may not be the one if you don’t want a noisy pet. Luckily, unlike other geckos, this species doesn’t have sticky toes and doesn’t climb, so they will not need a tall tank. They are smaller than the Bearded Dragon, growing to a foot at most, and live about 15 years.",
+      "price": 40,
+      "quantity": 5
+    },
+    {
+      "name": "Caiman Lizard",
+      "description": "The Caiman is great for first-time keepers looking for a unique color pattern. This species has heavy scales with all the colors of the rainbow. They are also great climbers and swimmers which makes them active in their vivarium. Caiman Lizards are very big, one of the biggest on this list! They can reach 2-5 feet long and will need an enclosure that is big and strong enough to house them properly. Because they love to swim, they will also need a very big pool of water to submerge in. These reptiles also prefer it very hot in their enclosure (with a high humidity too). They mostly eat a carnivorous diet, eating invertebrates found in marshy areas, including insects, snails, crawfish, and clams. Caiman Lizards are smart and are not naturally aggressive, but they don’t always adapt to being handled well. They make a great beginner lizard for someone willing to house and care for them from a distance, enjoying their beautiful rainbow appearance. They live up to 10 years.",
+      "price": 900,
+      "quantity": 5
+    },
+    {
+      "name": "Chinese Water Dragon",
+      "description": "There are several species of water dragons; the most common for beginners are the Chinese and Australian water dragons. Chinese Water Dragons are typically more popular than Australians. Water Dragons require large enclosures, closely regulated temperatures and a mostly insectivore diet, with some leafy vegetables. One thing that is more difficult about caring for a water dragon is that they require very high humidity. Chinese variants are mostly green. Their care requirements can be more advanced: They need large tanks (e.g. 4 to 6 feet long) because they reach up to 3 feet in size. They enjoy swimming, so will need a large-sized pool of water within their enclosure to swim in. Smaller than most water dragons, they must be socialized from an early age to become accustomed to handling. Once socialized, they are typically very friendly and enjoy handling. They have an average lifespan of 15-20 years.While they may have specific care and husbandry requirements, a beginner with the room and dedication can certainly care for a Chinese Water Dragon.",
+      "price": 80,
+      "quantity": 5
+    },
+    {
+      "name": "Blue-Tongue Skink",
+      "description": "The Blue-Tongue Skink is best known for its bright blue tongue! These Australia natives are omnivorous, eating mostly fruits with some meat. Although they need a fruit and vegetable diet, meat should also be provided, consisting of big worms or mice. They are a bit heavier than previously listed reptiles, but they do not get very long for their weight (about 20 inches). Blue-Tongue Skinks are generally very docile, quiet, and easily tamed. If they feel threatened, they do have a strong bite, so while it is ok for children to handle them, they should always be supervised. This skink lives up to 20 years and rarer morphs can cost thousands. Overall, their ease of care and docility make them good beginner reptiles.",
+      "price": 250,
+      "quantity": 5
+    }
+  ]
