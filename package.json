@@ -1,7 +1,7 @@
 {
   "name": "lee-reptile-emposium",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project 2",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.0.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -20,5 +20,22 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
+<<<<<<< HEAD
 }
+=======
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "^2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlcohan/team2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mlcohan/team2/issues"
+  },
+  "homepage": "https://github.com/mlcohan/team2#readme"
+>>>>>>> bbe262b23f5cdda488630b10187acb00b4872d08
 }
