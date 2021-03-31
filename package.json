@@ -1,7 +1,7 @@
 {
   "name": "lee-reptile-emposium",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project 2",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,5 +25,13 @@
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
     "prettier": "^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlcohan/team2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mlcohan/team2/issues"
+  },
+  "homepage": "https://github.com/mlcohan/team2#readme"
 }
