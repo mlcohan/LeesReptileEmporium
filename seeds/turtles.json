@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Red-Eared Slider",
+      "description": "The Green and Black Dart Frog is a species of Poison Dart family. This species is found in Central and South America and thrives on the rainforest floor. These little frogs are usually a green and black color. It is their bright colors that warn predators of their poison glands. Their name can sometimes keep beginners from adopting them. But surprisingly they make a great beginner frog. These frogs are small, entertaining and energetic. They are normally searching for food and hopping around – one of their favorite foods is ants. A committed beginner can care for one provided they are aware of the risks of handling one.",
+      "price": 80,
+      "quantity": 5
+    },
+    {
+      "name": "False Map Turtle",
+      "description": "The False Map Turtle is related to the Mississippi Map turtle. They are both natives of the Mississippi River. Unsurprisingly they are great swimmers and love to dive into deep water. False Maps have a patterned skin that resembles a contour map. Their eyes are sometimes lighter in color which gives them the same surprised appearance as the Mississippi Map. This breed should be kept in a 60-gallon tank with plenty of clean water and a basking area. They will spend most of their time basking. They need frequent water filtering but otherwise are very easy to care for.",
+      "price": 50,
+      "quantity": 5
+    },
+    {
+      "name": "Yellow Mud Turtle",
+      "description": "Yellow Mud turtles are great for beginners. They are low-maintenance and hardy. These little guys stay small too. Adults are under five inches in size. Yellow Muds typically have yellow to light brown shells and bellies. Their cheeks and chin are a brighter shade of yellow than their shell. These turtles are found in freshwater habitats in the midwestern United States. They like spending time both on land and in water. Yellow Muds are hardy and tolerant of many climates. If water starts to dry up, they bury themselves beneath the mud. What makes this animal easy to care for is its diet. It will eat food (e.g. salmon, snails, shrimp and other invertebrates) both in and out of water. They are a very friendly breed so you can have more than one.",
+      "price": 400,
+      "quantity": 5
+    },
+    {
+      "name": "Chinese Softshell Turtle",
+      "description": "The Chinese Softshell Turtle is found throughout China, Thailand, Japan, Korea and Vietnam. As their name suggests they have a shell that is softer than the typical hard shell. Similar to the Mata Mata breed the softshell is an incredibly unique type of turtle. Their upkeep can be hard because of their soft shell. Any beginner will need to be dedicated to care for them and keep their tank clean. Unlike the Mata Mata the softshell prefers to spend most of its time in the water. They have a thin tube-like snout that is used for snorkeling.",
+      "price": 50,
+      "quantity": 5
+    },
+    {
+      "name": "African Sideneck Turtle",
+      "description": "The African Sideneck lives happily in captivity and is easy to maintain. They are commonly found in bodies of freshwater throughout Africa and Madagascar. African Sidenecks’ mouths are curved upward in a “smile” making them a very cute turtle. Like all sideneck species they are unique for having the ability to turn their heads sideways. They can also use their long necks to flip themselves over if they get stuck on their back. This animal can be very entertaining to watch as they dive into the water and come up to bask.",
+      "price": 100,
+      "quantity": 5
+    }
+  ]
