@@ -20,14 +20,6 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
-<<<<<<< HEAD
-}
-=======
-  },
-  "devDependencies": {
-    "eslint": "^7.12.1",
-    "eslint-config-prettier": "^6.15.0",
-    "prettier": "^2.1.2"
   },
   "repository": {
     "type": "git",
@@ -37,5 +29,4 @@
     "url": "https://github.com/mlcohan/team2/issues"
   },
   "homepage": "https://github.com/mlcohan/team2#readme"
->>>>>>> bbe262b23f5cdda488630b10187acb00b4872d08
 }
