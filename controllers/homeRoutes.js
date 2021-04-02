@@ -10,6 +10,14 @@ router.get('/', async (req, res) => {
   } 
 );
 
+router.get('/frogs', async (req, res) => {
+
+  res.render('frogs', { 
+    logged_in: req.session.logged_in 
+  });
+} 
+);
+
 // router.get('/project/:id', async (req, res) => {
 //   try {
 //     const projectData = await Project.findByPk(req.params.id, {

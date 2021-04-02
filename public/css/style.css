@@ -32,6 +32,7 @@ footer {
 .aboutUs,
 .welcome,
 .welcomeLizard,
+.welcomeSnake,
 .animals {
   animation: fade 1.5s ease;
 }
@@ -73,7 +74,7 @@ nav a:hover {
 
 .main {
   min-height: 90vh;
-  background: url(/img/jungle.jpg);
+  background: url(./img/jungle.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -243,7 +244,7 @@ nav a:hover {
 
 .welcome {
   min-height: 90vh;
-  background: url(/img/frogs/frogwallpaper.jpg);
+  background: url(/Project-frontend/img/frogs/frogwallpaper.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -251,7 +252,23 @@ nav a:hover {
 
 .welcomeLizard {
   min-height: 90vh;
-  background: url(/img/lizards/lizardwallpaper.jpg);
+  background: url(/Project-frontend/img/lizards/lizardwallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.welcomeSnake {
+  min-height: 90vh;
+  background: url(/Project-frontend/img/snakes/snakewallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.welcomeTurtle {
+  min-height: 90vh;
+  background: url(/Project-frontend/img/turtles/turtlewallpaper.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -350,6 +367,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 1rem 1rem;
 }
 
 .reviewCard img {
