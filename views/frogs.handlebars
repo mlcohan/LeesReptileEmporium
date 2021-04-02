@@ -1,53 +1,53 @@
 <section class="welcome">
     <div class="animalName">
-    <h2 id="welcomeText">Frogs</h2>
-    <p>
-        "Don't be a fish; be a frog. Swim in the water and jump when you hit
-        ground." -David Lee
-    </p>
+        <h2 id="welcomeText">Frogs</h2>
+        <p>
+            "Don't be a fish; be a frog. Swim in the water and jump when you hit
+            ground." -David Lee
+        </p>
     </div>
 </section>
 <section class="animals">
     <div class="collection">
-    <h2>Our Collection</h2>
+        <h2>Our Collection</h2>
     </div>
     <div class="holder">
-    <div class="display">
-        <img
-        src="/img/frogs/gbdartfrog.png"
-        alt="green-and-black-dartfrog"
-        />
-        <h2>Green & Black Dart Frog</h2>
-        <p>$80</p>
-        <p>Stock: 5</p>
-    </div>
-    <div class="display">
-        <img
-        src="/img/frogs/bumblebee.png"
-        alt="bumblebee-frog"
-        />
-        <h2>Bumblebee Dart Frog</h2>
-        <p>$80</p>
-        <p>Stock: 5</p>
-    </div>
-    <div class="display">
-        <img src="/img/frogs/african.png" alt="african-frog" />
-        <h2>African Bullfrog</h2>
-        <p>$75</p>
-        <p>Stock: 5</p>
-    </div>
-    <div class="display">
-        <img src="/img/frogs/pacman.png" alt="pacman-frog" />
-        <h2>Pacman Frog</h2>
-        <p>$50</p>
-        <p>Stock: 5</p>
-    </div>
-    <div class="display">
-        <img src="/img/frogs/tomato.png" alt="tomato-frog" />
-        <h2>Tomato Frog</h2>
-        <p>$50</p>
-        <p>Stock: 5</p>
-    </div>
+        {{#each frogs as |frog|}}
+            <div class="display">
+            <img src="{{frog.img}}" alt="green-and-black-dartfrog"/>
+            <h2>Green & Black Dart Frog</h2>
+            <p>$80</p>
+            <p>Stock: 5</p>
+        </div>
+        {{/each}}
+        
+        {{!-- <div class="display">
+            <img
+            src="/img/frogs/bumblebee.png"
+            alt="bumblebee-frog"
+            />
+            <h2>Bumblebee Dart Frog</h2>
+            <p>$80</p>
+            <p>Stock: 5</p>
+        </div>
+        <div class="display">
+            <img src="/img/frogs/african.png" alt="african-frog" />
+            <h2>African Bullfrog</h2>
+            <p>$75</p>
+            <p>Stock: 5</p>
+        </div>
+        <div class="display">
+            <img src="/img/frogs/pacman.png" alt="pacman-frog" />
+            <h2>Pacman Frog</h2>
+            <p>$50</p>
+            <p>Stock: 5</p>
+        </div>
+        <div class="display">
+            <img src="/img/frogs/tomato.png" alt="tomato-frog" />
+            <h2>Tomato Frog</h2>
+            <p>$50</p>
+            <p>Stock: 5</p>
+        </div> --}}
     </div>
 </section>
 <section class="reviews">
