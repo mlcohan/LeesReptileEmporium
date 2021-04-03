@@ -13,19 +13,16 @@
     </div>
     <div class="holder">
         {{#each frogs as |frog|}}
-            <div class="display">
-            <img src="{{frog.img}}" alt="green-and-black-dartfrog"/>
-            <h2>Green & Black Dart Frog</h2>
-            <p>$80</p>
-            <p>Stock: 5</p>
+        <div class="display">
+            <img src={{frog.img}} alt="green-and-black-dartfrog" />
+            <h2>{{frog.name}}</h2>
+            <p>${{frog.price}}</p>
+            <p>Stock: {{frog.quantity}}</p>
         </div>
         {{/each}}
-        
+
         {{!-- <div class="display">
-            <img
-            src="/img/frogs/bumblebee.png"
-            alt="bumblebee-frog"
-            />
+            <img src="/img/frogs/bumblebee.png" alt="bumblebee-frog" />
             <h2>Bumblebee Dart Frog</h2>
             <p>$80</p>
             <p>Stock: 5</p>
@@ -52,55 +49,55 @@
 </section>
 <section class="reviews">
     <div class="title">
-    <h2>Customer Reviews</h2>
+        <h2>Customer Reviews</h2>
     </div>
     <div class="reviewHold">
         <div class="reviewCard">
             <img src="/img/cus1.jpg" alt="" />
             <p>
-            "This is such a wonderful pet store. The staff is friendly and
-            knowledgeable. Our visit was quick and easy. I would drive an hour
-            out of my way again to visit this store."
+                "This is such a wonderful pet store. The staff is friendly and
+                knowledgeable. Our visit was quick and easy. I would drive an hour
+                out of my way again to visit this store."
             </p>
         </div>
         <div class="reviewCard">
             <img src="/img/cus2.jpg" alt="" />
             <p>
-            "Best pet store I've ever interacted with. Recently moved out to
-            Florida and decided to get a reptile. Lee's was so helpful, the
-            employees were wonderful, informative, and sweet."
+                "Best pet store I've ever interacted with. Recently moved out to
+                Florida and decided to get a reptile. Lee's was so helpful, the
+                employees were wonderful, informative, and sweet."
             </p>
         </div>
         <div class="reviewCard">
             <img src="/img/cus3.jpg" alt="" />
             <p>
-            "I've called Lee's on several occasions for advice and they are
-            always very helpful. The store is always clean and I've never had a
-            problem with finding help or supplies."
+                "I've called Lee's on several occasions for advice and they are
+                always very helpful. The store is always clean and I've never had a
+                problem with finding help or supplies."
             </p>
         </div>
         <div class="reviewCard">
             <img src="/img/cus4.jpg" alt="" />
             <p>
-            "I love this store! They have everything and more, and the prices
-            are MUCH better than elsewhere. The staff are knowledgeable and
-            friendly, too."
+                "I love this store! They have everything and more, and the prices
+                are MUCH better than elsewhere. The staff are knowledgeable and
+                friendly, too."
             </p>
         </div>
         <div class="reviewCard">
             <img src="/img/cus5.jpg" alt="" />
             <p>
-            "Lees staff are always super friendly and knowledgeable. They have
-            an excellent selection every time I go there. They're prices are on
-            point as well. "
+                "Lees staff are always super friendly and knowledgeable. They have
+                an excellent selection every time I go there. They're prices are on
+                point as well. "
             </p>
         </div>
         <div class="reviewCard">
             <img src="/img/cus6.jpg" alt="" />
             <p>
-            "I've been coming here since I was little, really cute pet store! If
-            your looking for somewhere to adopt a frog or a snake this is your
-            place!"
+                "I've been coming here since I was little, really cute pet store! If
+                your looking for somewhere to adopt a frog or a snake this is your
+                place!"
             </p>
         </div>
     </div>
