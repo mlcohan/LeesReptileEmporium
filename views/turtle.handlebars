@@ -1,0 +1,79 @@
+<section class="welcomeTurtle">
+    <div class="animalName">
+        <h2 id="welcomeText">Turtles</h2>
+        <p>
+            "Turtles always strike me as devastatingly serious. If turtles could
+            talk, I'd believe everything they said." -David Lee
+        </p>
+    </div>
+</section>
+<section class="animals">
+    <div class="collection">
+        <h2>Our Collection</h2>
+    </div>
+    <div class="holder">
+        {{#each turtles as |turtle|}}
+        <div class="display">
+            <img src={{turtle.img}} alt="green-and-black-dartturtle" />
+            <h2>{{turtle.name}}</h2>
+            <p>${{turtle.price}}</p>
+            <p>Stock: {{turtle.quantity}}</p>
+        </div>
+        {{/each}}
+    </div>
+</section>
+<section class="reviews">
+    <div class="title">
+        <h2>Customer Reviews</h2>
+    </div>
+    <div class="reviewHold">
+        <div class="reviewCard">
+            <img src="/img/cus1.jpg" alt="" />
+            <p>
+                "This is such a wonderful pet store. The staff is friendly and
+                knowledgeable. Our visit was quick and easy. I would drive an hour
+                out of my way again to visit this store."
+            </p>
+        </div>
+        <div class="reviewCard">
+            <img src="/img/cus2.jpg" alt="" />
+            <p>
+                "Best pet store I've ever interacted with. Recently moved out to
+                Florida and decided to get a reptile. Lee's was so helpful, the
+                employees were wonderful, informative, and sweet."
+            </p>
+        </div>
+        <div class="reviewCard">
+            <img src="/img/cus3.jpg" alt="" />
+            <p>
+                "I've called Lee's on several occasions for advice and they are
+                always very helpful. The store is always clean and I've never had a
+                problem with finding help or supplies."
+            </p>
+        </div>
+        <div class="reviewCard">
+            <img src="/img/cus4.jpg" alt="" />
+            <p>
+                "I love this store! They have everything and more, and the prices
+                are MUCH better than elsewhere. The staff are knowledgeable and
+                friendly, too."
+            </p>
+        </div>
+        <div class="reviewCard">
+            <img src="/img/cus5.jpg" alt="" />
+            <p>
+                "Lees staff are always super friendly and knowledgeable. They have
+                an excellent selection every time I go there. They're prices are on
+                point as well. "
+            </p>
+        </div>
+        <div class="reviewCard">
+            <img src="/img/cus6.jpg" alt="" />
+            <p>
+                "I've been coming here since I was little, really cute pet store! If
+                your looking for somewhere to adopt a frog or a snake this is your
+                place!"
+            </p>
+        </div>
+    </div>
+</section>
