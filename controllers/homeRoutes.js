@@ -69,19 +69,41 @@ router.get('/exotic', async (req, res) => {
 });
 
 router.get('/about', async (req, res) => {
-  res.render('About', {
-    logged_in: req.session.logged_in,
-  });
+  res.render('About');
 });
 
 router.get('/all', async (req, res) => {
-  try {
-
-  } catch (err) {
-    res.status(500).json(err);
-  }
+  res.render('all')
 });
 
+// router.get('/cart', async (req, res) => {
+//   try {
+//     const cartData = await Cart.findByPk(req.params.id, {
+//       include: [
+//         {
+//           model: Cart,
+//         },
+//       ],
+//     });
+
+//     const carts = cartData.get({ plain: true });
+
+//     res.render('cart', {
+//       ...carts,
+//       logged_in: req.session.logged_in
+//     });
+//   } catch (err) {
+//     res.status(500).json(err)
+//   }
+// });
+
+router.get('/login', async (req, res) => {
+  res.render('login')
+});
+
+router.get('/fan-chat', async (req, res) => {
+  res.render('signup');
+});
 // router.get('/project/:id', async (req, res) => {
 //   try {
 //     const projectData = await Project.findByPk(req.params.id, {
