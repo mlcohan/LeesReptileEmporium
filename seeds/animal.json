@@ -33,28 +33,32 @@
     "description": "Pacman Frogs are another species found in the Amazonian Basin of South America. This species comes in several colors from orange-brown to lime green. They get their name due to their large mouths that take up half of their head! These frogs are bigger than most and can grow seven inches long. They use their dominant size to fiercely protect their territory in the wild. Because they can be aggressive and have sharp teeth owners should wear protective gloves when handling. Pacman Frogs thrive in captivity with the right care. This ease of captive living makes them suitable for someone learning how to care for a frog.",
     "price": 50,
     "quantity": 5,
-    "category": "frog"
+    "category": "frog",
+    "img": "/img/frogs/pacman.webp"
   },
   {
     "name": "Tomato Frog",
     "description": "This orange pet might remind you of a little cherry tomato! Tomato Frogs are found in northern Madagascar in a variety of environments (e.g. wooded coasts and rainforests). They can thrive in different habitats so are very hardy and adjust well to captive life. They are one of the smallest pet frogs at 2.5 to 4 inches long. They also have interesting behaviors like burrowing when kept in an aquarium. Tomato Frogs have become very popular in the pet trade due to their attractive bright color and small size.",
     "price": 50,
     "quantity": 5,
-    "category": "frog"
+    "category": "frog",
+    "img": "/img/frogs/tomato.png"
   },
   {
     "name": "African Bullfrog",
     "description": "The African Bullfrog is one of the most unique amphibians on the planet. They are loved for their unique size and behaviors and spend the majority of the year buried underground. They are sometimes called Pixie Frogs due to their scientific name Pyxicephalus adspersus. This pet frog is bigger than most! Males are much larger than females and can grow up to 10 inches. Other than the fact they need a 20-gallon tank, the African Bullfrog does not have difficult care requirements. They are easy going and tolerate handling once in a while. This pet can live for 35 years with good husbandry.",
     "price": 75,
     "quantity": 5,
-    "category": "frog"
+    "category": "frog",
+    "img": "/img/frogs/african.png"
   },
   {
     "name": "Bumblebee Dart Frog",
     "description": "Bumblebee Dart Frogs are found throughout South America. They are insectivores and eat small fruit flies and pinhead crickets. These unique pets are decorated with splotches of black and yellow. Beginners love them for their bright colors. They have very similar care requirements to their green and black relatives and are very easy to care for – provided you do not handle them often. Bumblebee Darts live well in a 10-gallon tank with 75℉ – 85℉ temperatures and high humidity. It will be hard to keep them healthy if you do not keep the humidity above 90%. These little yellow frogs can live for at least 10 years.",
     "price": 80,
     "quantity": 5,
-    "category": "frog"
+    "category": "frog",
+    "img": "/img/frogs/bumblebee.png"
   },
   {
     "name": "Bearded Dragon",
@@ -162,175 +166,3 @@
     "category": "turtle"
   }
 ]
-<<<<<<< HEAD
-=======
-=======
-    {
-        "name": "Dwarf Crocodile",
-        "description": "This species is regarded as the smallest of all the crocodilian species, reaching an adult size of only 1.5 to 1.6 metres (5 feet). It has a fairly wide distribution in South America although it is still harder to find in the pet trade. Some other species of caimans are farmed for their skins, but Paleosuchus has a hide which is virtually worthless for skinning and is therefore not farmed for this purpose. Given its small adult size, this species would seem to be preferred for captivity. However, it is a secretive species which does not usually want to be seen. In the wild, adults have been reported to spend most of the day in burrows and come out at night to travel overland to their foraging grounds. However, Medem's work from the 1950s suggests that most Paleosuchus seem well-equipped to deal with fast moving currents and he found many adults in turbid streams either singly or in pairs. They are definitely most active at night, and in captivity you'll tend not to see much activity nor have much feeding success during the day. Some keepers have found that this species thrives with less available water than other species, especially as adults. They have been reported to defaecate almost always on land, making the enclosure much easier to keep clean. Reports on their temperament vary. Medem regarded them as generally shy but aggressive if cornered, frequently fighting with other captive individuals (i.e. very territorial). Others have found that in time they will lose much of their aggressive nature, although they never really become tame.",
-        "price": 400,
-        "quantity": 5,
-        "category": "exotic"
-    },
-    {
-        "name": "Argentine Tegu",
-        "description": "The Argentine Tegu is not a monitor nor an iguana so it gets its own category. This Tegu grows up to four feet and has a wonderful, often playful, personality. They can live up to 20 years and are powerful and athletic. Yet, despite all that power, they are unlikely to bite. The Argentine Tegu is an omnivore, eating a higher protein diet earlier in life and then transitioning to a higher vegetation diet. This Tegu is trainable and it is possible to take them out on a harness with some work.",
-        "price": 300,
-        "quantity": 5,
-        "category": "exotic"
-    },
-    {
-        "name": "Asian Water Monitor",
-        "description": "If you’re looking for the best large lizard that you can actually bond and play with, look no further than the Asian Water Monitor. As far as temperaments go, the Asian Water Monitor surpasses all the other giant monitors. They are playful and curious. However, while they still have the potential to harm, it is unlikely they would intentionally hurt you. In addition to a fantastic personality, Asian Water monitors are VERY intelligent. This allows them to be more trainable than you might expect. You may also bond better with the Asian Water monitor because of their intelligence and their ability to interact with humans. Males grow to between five and eight feet in length while females grow to between four and six feet. They live longer than many of their monitor counterparts. In fact, they will live an average of 15 years in captivity but are known to reach 20 years! Adults need an enclosure that is at least 8-feet by 6-feet by 8-feet, but they can start with a smaller enclosure that grows with them as they mature.",
-        "price": 200,
-        "quantity": 5,
-        "category": "exotic"
-    },
-    {
-        "name": "Green and Black Dart Frog",
-        "description": "The Green and Black Dart Frog is a species of Poison Dart family. This species is found in Central and South America and thrives on the rainforest floor. These little frogs are usually a green and black color. It is their bright colors that warn predators of their poison glands. Their name can sometimes keep beginners from adopting them. But surprisingly they make a great beginner frog. These frogs are small, entertaining and energetic. They are normally searching for food and hopping around – one of their favorite foods is ants. A committed beginner can care for one provided they are aware of the risks of handling one.",
-        "price": 80,
-        "quantity": 5,
-        "category": "frog",
-        "img": "/img/frogs/gbdartfrog.png"
-    },
-    {
-        "name": "Pacman Frog",
-        "description": "Pacman Frogs are another species found in the Amazonian Basin of South America. This species comes in several colors from orange-brown to lime green. They get their name due to their large mouths that take up half of their head! These frogs are bigger than most and can grow seven inches long. They use their dominant size to fiercely protect their territory in the wild. Because they can be aggressive and have sharp teeth owners should wear protective gloves when handling. Pacman Frogs thrive in captivity with the right care. This ease of captive living makes them suitable for someone learning how to care for a frog.",
-        "price": 50,
-        "quantity": 5,
-        "category": "frog",
-        "img": "/img/frogs/pacman.webp"
-    },
-    {
-        "name": "Tomato Frog",
-        "description": "This orange pet might remind you of a little cherry tomato! Tomato Frogs are found in northern Madagascar in a variety of environments (e.g. wooded coasts and rainforests). They can thrive in different habitats so are very hardy and adjust well to captive life. They are one of the smallest pet frogs at 2.5 to 4 inches long. They also have interesting behaviors like burrowing when kept in an aquarium. Tomato Frogs have become very popular in the pet trade due to their attractive bright color and small size.",
-        "price": 50,
-        "quantity": 5,
-        "category": "frog",
-        "img": "/img/frogs/tomato.png"
-    },
-    {
-        "name": "African Bullfrog",
-        "description": "The African Bullfrog is one of the most unique amphibians on the planet. They are loved for their unique size and behaviors and spend the majority of the year buried underground. They are sometimes called Pixie Frogs due to their scientific name Pyxicephalus adspersus. This pet frog is bigger than most! Males are much larger than females and can grow up to 10 inches. Other than the fact they need a 20-gallon tank, the African Bullfrog does not have difficult care requirements. They are easy going and tolerate handling once in a while. This pet can live for 35 years with good husbandry.",
-        "price": 75,
-        "quantity": 5,
-        "category": "frog",
-        "img": "/img/frogs/african.png"
-    },
-    {
-        "name": "Bumblebee Dart Frog",
-        "description": "Bumblebee Dart Frogs are found throughout South America. They are insectivores and eat small fruit flies and pinhead crickets. These unique pets are decorated with splotches of black and yellow. Beginners love them for their bright colors. They have very similar care requirements to their green and black relatives and are very easy to care for – provided you do not handle them often. Bumblebee Darts live well in a 10-gallon tank with 75℉ – 85℉ temperatures and high humidity. It will be hard to keep them healthy if you do not keep the humidity above 90%. These little yellow frogs can live for at least 10 years.",
-        "price": 80,
-        "quantity": 5,
-        "category": "frog",
-        "img": "/img/frogs/bumblebee.png"
-    },
-    {
-        "name": "Bearded Dragon",
-        "description": "The Bearded Dragon is an all-round popular, outgoing, and easy-to-care-for lizard. They are one of the best reptile pets you can have. Beardies are native to Australia, and are known for the way they communicate with each other. They have folds of skin under their chin that puff out in a “beard”. Bearded Dragons are active during the day, and they are omnivorous, consuming a variety of fruits and insects. They eat a couple times a week and should also have a calcium supplement. These dragons are as sociable as lizards get. Most of the time, they tend to enjoy interactions with their owners. Many owners have claimed that each dragon has its own little personality. The Bearded Dragon’s overall ease of husbandry and friendly temperament make it a great beginner lizard. They grow 1-2 feet in length and generally live to 10-15 years.",
-        "price": 60,
-        "quantity": 5,
-        "category": "lizard"
-    },
-    {
-        "name": "Leopard Gecko",
-        "description": "Leopard Geckos are very popular and are widely known for being a great pet for beginner herpetologists. They are coated with a pattern of dark brown spots, much like the animal they are named after. They are entirely insectivorous and require calcium supplements. They are also nocturnal. Leopard Geckos are generally very docile, not likely to bite, and their ease of care makes them suitable for beginners. They like to vocalize, especially if they’re hungry, so they may not be the one if you don’t want a noisy pet. Luckily, unlike other geckos, this species doesn’t have sticky toes and doesn’t climb, so they will not need a tall tank. They are smaller than the Bearded Dragon, growing to a foot at most, and live about 15 years.",
-        "price": 40,
-        "quantity": 5,
-        "category": "lizard"
-    },
-    {
-        "name": "Caiman Lizard",
-        "description": "The Caiman is great for first-time keepers looking for a unique color pattern. This species has heavy scales with all the colors of the rainbow. They are also great climbers and swimmers which makes them active in their vivarium. Caiman Lizards are very big, one of the biggest on this list! They can reach 2-5 feet long and will need an enclosure that is big and strong enough to house them properly. Because they love to swim, they will also need a very big pool of water to submerge in. These reptiles also prefer it very hot in their enclosure (with a high humidity too). They mostly eat a carnivorous diet, eating invertebrates found in marshy areas, including insects, snails, crawfish, and clams. Caiman Lizards are smart and are not naturally aggressive, but they don’t always adapt to being handled well. They make a great beginner lizard for someone willing to house and care for them from a distance, enjoying their beautiful rainbow appearance. They live up to 10 years.",
-        "price": 900,
-        "quantity": 5,
-        "category": "lizard"
-    },
-    {
-        "name": "Chinese Water Dragon",
-        "description": "There are several species of water dragons; the most common for beginners are the Chinese and Australian water dragons. Chinese Water Dragons are typically more popular than Australians. Water Dragons require large enclosures, closely regulated temperatures and a mostly insectivore diet, with some leafy vegetables. One thing that is more difficult about caring for a water dragon is that they require very high humidity. Chinese variants are mostly green. Their care requirements can be more advanced: They need large tanks (e.g. 4 to 6 feet long) because they reach up to 3 feet in size. They enjoy swimming, so will need a large-sized pool of water within their enclosure to swim in. Smaller than most water dragons, they must be socialized from an early age to become accustomed to handling. Once socialized, they are typically very friendly and enjoy handling. They have an average lifespan of 15-20 years.While they may have specific care and husbandry requirements, a beginner with the room and dedication can certainly care for a Chinese Water Dragon.",
-        "price": 80,
-        "quantity": 5,
-        "category": "lizard"
-    },
-    {
-        "name": "Blue-Tongue Skink",
-        "description": "The Blue-Tongue Skink is best known for its bright blue tongue! These Australia natives are omnivorous, eating mostly fruits with some meat. Although they need a fruit and vegetable diet, meat should also be provided, consisting of big worms or mice. They are a bit heavier than previously listed reptiles, but they do not get very long for their weight (about 20 inches). Blue-Tongue Skinks are generally very docile, quiet, and easily tamed. If they feel threatened, they do have a strong bite, so while it is ok for children to handle them, they should always be supervised. This skink lives up to 20 years and rarer morphs can cost thousands. Overall, their ease of care and docility make them good beginner reptiles.",
-        "price": 250,
-        "quantity": 5,
-        "category": "lizard"
-    },
-    {
-        "name": "Corn Snake",
-        "description": "The Corn Snake is the most popular beginner snake. Native to the United States, they can be found in terrestrial habitats. These snakes are red-brown to orange, typically with dark red-black blotches, but a variety of colors can be found in many captive-bred snakes. Baby Corns are 10-12 inches long and grow to 3-4 feet long. They can be wild-caught (by professionals), but captive-bred are much healthier with better temperaments. An adult Corn Snake can be kept in a 20 gallon aquarium, which is about the size of a medium-large fish tank, and the tank should range from 72℉ to 90℉ from one side to the other. Corn Snakes like to eat pinky mice in captivity. They present very few medical problems, and any issues typically only arise with poor husbandry. Corn snakes can live up to 20 years. Overall, they have a very easy care regimen and a very gentle temperament that makes handling and taking care of them manageable, even for new snake owners!",
-        "price": 100,
-        "quantity": 5,
-        "category": "snake"
-    },
-    {
-        "name": "Ball Python",
-        "description": "Ball Pythons get their name because of the “ball” they like to curl up in to feel safe. Native to west and central Africa, they like to live in grasslands, likely burrowing in rodent burrows. They are active at night and like to stay hidden during the day. They are typically brown with lighter patches, but captive-bred Ball Pythons come in a variety of colors. Adults are usually about 3.5-5 feet in length and can live 20-30 years. Ball Pythons are docile creatures and are reluctant to bite. They prefer to curl up in a ball when they feel threatened. They will likely grow out of this behavior if they are handled frequently. These Pythons eat mice, but it is their dietary-pickiness that makes beginner herpetologists wary. These pythons like to have their food served freshly killed or thawed. In general, Ball Pythons are a very common first snake, and aside from their occasional food pickiness, they have an easy care routine and are very tame to handle.",
-        "price": 200,
-        "quantity": 5,
-        "category": "snake"
-    },
-    {
-        "name": "Rainbow Boa",
-        "description": "The Rainbow Boa is native to South America and is not usually recommended to beginners for its shy and nippy behavior, but has landed a spot on this list for its other redeeming qualities. First and foremost, Rainbow Boas are widely known and appreciated for their stunning colors. In the right light, they have a shiny, iridescent gleam to their skin. They require specialized husbandry and specific tank conditions of high heat and humidity because of their natural tropical habitat. They may be nippy and shy as babies, but the right Rainbow Boa can tame down as an adult with frequent handling. They may be more high maintenance, but the reward of a gorgeous reptile is a high one if the right amount of time and patience is put into their care. Best for a beginner who is ready for a big commitment and to learn about correct handling. Rainbow Boas are typically 5-9 feet long and can live to be more than 20 years old.",
-        "price": 600,
-        "quantity": 5,
-        "category": "snake"
-    },
-    {
-        "name": "California King Snake",
-        "description": "The California King is the most popular subspecies of King Snake. Also native to the United States, they are typically a brown-black color with yellow bands, stripes, or speckles, growing to 2.5-5 feet long (about the same size as a Corn Snake). Unlike Corn Snakes, these reptiles are active during the day time instead of night time. They should, however, still have regular hours of daylight and darkness. Great for beginners as they can be housed in a 20 gallon tank. They eat mice in captivity and can live up to 20 years. This pet can be shy, but they are very docile with frequent handling. Instead of striking in anger when threatened, they would rather coil up to hide in defense. A reptile well-adapted to handling and living in captivity should not be afraid while it is being held. These snakes have basic care requirements with the benefit of being easy to handle with their calm temperament.",
-        "price": 170,
-        "quantity": 5,
-        "category": "snake"
-    },
-    {
-        "name": "Milk Snake",
-        "description": "Like the California King, the Milk Snake is actually a separate species of the King Snake. They are native to the US and Mexico and commonly have black, white, and red body rings. Often found in the woods or rocky areas, they do not necessarily like to soak up sun, but rather enjoy soaking up heat from rocks and logs, so an under tank heater may be better for them. They otherwise have very basic care requirements and live up to 20 years. Not very large, this reptile can grow up to 2 feet during their first few years. Like other King species, Milk Snakes are very docile and rarely bite.",
-        "price": 200,
-        "quantity": 5,
-        "category": "snake"
-    },
-    {
-        "name": "Red-Eared Slider",
-        "description": "The Green and Black Dart Frog is a species of Poison Dart family. This species is found in Central and South America and thrives on the rainforest floor. These little frogs are usually a green and black color. It is their bright colors that warn predators of their poison glands. Their name can sometimes keep beginners from adopting them. But surprisingly they make a great beginner frog. These frogs are small, entertaining and energetic. They are normally searching for food and hopping around – one of their favorite foods is ants. A committed beginner can care for one provided they are aware of the risks of handling one.",
-        "price": 80,
-        "quantity": 5,
-        "category": "turtle"
-    },
-    {
-        "name": "False Map Turtle",
-        "description": "The False Map Turtle is related to the Mississippi Map turtle. They are both natives of the Mississippi River. Unsurprisingly they are great swimmers and love to dive into deep water. False Maps have a patterned skin that resembles a contour map. Their eyes are sometimes lighter in color which gives them the same surprised appearance as the Mississippi Map. This breed should be kept in a 60-gallon tank with plenty of clean water and a basking area. They will spend most of their time basking. They need frequent water filtering but otherwise are very easy to care for.",
-        "price": 50,
-        "quantity": 5,
-        "category": "turtle"
-    },
-    {
-        "name": "Yellow Mud Turtle",
-        "description": "Yellow Mud turtles are great for beginners. They are low-maintenance and hardy. These little guys stay small too. Adults are under five inches in size. Yellow Muds typically have yellow to light brown shells and bellies. Their cheeks and chin are a brighter shade of yellow than their shell. These turtles are found in freshwater habitats in the midwestern United States. They like spending time both on land and in water. Yellow Muds are hardy and tolerant of many climates. If water starts to dry up, they bury themselves beneath the mud. What makes this animal easy to care for is its diet. It will eat food (e.g. salmon, snails, shrimp and other invertebrates) both in and out of water. They are a very friendly breed so you can have more than one.",
-        "price": 400,
-        "quantity": 5,
-        "category": "turtle"
-    },
-    {
-        "name": "Chinese Softshell Turtle",
-        "description": "The Chinese Softshell Turtle is found throughout China, Thailand, Japan, Korea and Vietnam. As their name suggests they have a shell that is softer than the typical hard shell. Similar to the Mata Mata breed the softshell is an incredibly unique type of turtle. Their upkeep can be hard because of their soft shell. Any beginner will need to be dedicated to care for them and keep their tank clean. Unlike the Mata Mata the softshell prefers to spend most of its time in the water. They have a thin tube-like snout that is used for snorkeling.",
-        "price": 50,
-        "quantity": 5,
-        "category": "turtle"
-    },
-    {
-        "name": "African Sideneck Turtle",
-        "description": "The African Sideneck lives happily in captivity and is easy to maintain. They are commonly found in bodies of freshwater throughout Africa and Madagascar. African Sidenecks’ mouths are curved upward in a “smile” making them a very cute turtle. Like all sideneck species they are unique for having the ability to turn their heads sideways. They can also use their long necks to flip themselves over if they get stuck on their back. This animal can be very entertaining to watch as they dive into the water and come up to bask.",
-        "price": 100,
-        "quantity": 5,
-        "category": "turtle"
-    }
-]
->>>>>>> main
->>>>>>> main
