@@ -69,7 +69,7 @@ router.get("/exotic", async (req, res) => {
 });
 
 router.get("/about", async (req, res) => {
-  res.render("about");
+  res.render("About");
 });
 
 router.get("/all", async (req, res) => {
