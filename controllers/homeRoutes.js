@@ -32,56 +32,52 @@ router.get("/lizards", async (req, res) => {
   }
 });
 
-// router.get('/project/:id', async (req, res) => {
-//   try {
-//     const projectData = await Project.findByPk(req.params.id, {
-//       include: [
-//         {
-//           model: User,
-//           attributes: ['name'],
-//         },
-//       ],
-//     });
+router.get("/snakes", async (req, res) => {
+  try {
+    const snakeData = await Animal.findAll({
+      where: { category: "snake" },
+    });
+    const snakes = snakeData.map((snake) => snake.get({ plain: true }));
+    res.render("snake", { snakes });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
-//     const project = projectData.get({ plain: true });
+router.get("/turtles", async (req, res) => {
+  try {
+    const turtleData = await Animal.findAll({
+      where: { category: "turtle" },
+    });
+    const turtles = turtleData.map((turtle) => turtle.get({ plain: true }));
+    res.render("turtle", { turtles });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
-//     res.render('project', {
-//       ...project,
-//       logged_in: req.session.logged_in
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
+router.get("/exotic", async (req, res) => {
+  try {
+    const exoticData = await Animal.findAll({
+      where: { category: "exotic" },
+    });
+    const exotics = exoticData.map((exotic) => exotic.get({ plain: true }));
+    res.render("exotic", { exotics });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
-// // Use withAuth middleware to prevent access to route
-// router.get('/profile', withAuth, async (req, res) => {
-//   try {
-//     // Find the logged in user based on the session ID
-//     const userData = await User.findByPk(req.session.user_id, {
-//       attributes: { exclude: ['password'] },
-//       include: [{ model: Project }],
-//     });
+router.get("/about", async (req, res) => {
+  res.render("about");
+});
 
-//     const user = userData.get({ plain: true });
-
-//     res.render('profile', {
-//       ...user,
-//       logged_in: true
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
-
-// router.get('/login', (req, res) => {
-//   // If the user is already logged in, redirect the request to another route
-//   if (req.session.logged_in) {
-//     res.redirect('/profile');
-//     return;
-//   }
-
-//   res.render('login');
-// });
+router.get("/all", async (req, res) => {
+  try {
+    res.render("all");
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 module.exports = router;
