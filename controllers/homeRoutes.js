@@ -1,17 +1,23 @@
-const router = require('express').Router();
-const { Animal, Cart, User } = require('../models');
-const withAuth = require('../utils/auth');
+const router = require("express").Router();
+const { Animal, Cart, User } = require("../models");
+const withAuth = require("../utils/auth");
 
-router.get('/', async (req, res) => {
-  res.render('homepage', { 
-    logged_in: req.session.logged_in 
-  })
+router.get("/", async (req, res) => {
+  res.render("homepage", {
+    logged_in: req.session.logged_in,
+  });
 });
 
-router.get('/frogs', async (req, res) => {
-  res.render('frogs', { 
-    logged_in: req.session.logged_in 
-  });
+router.get("/frogs", async (req, res) => {
+  try {
+    const frogData = await Animal.findAll({
+      where: { category: "frog" },
+    });
+    const frogs = frogData.map((frog) => frog.get({ plain: true }));
+    res.render("frogs", { frogs });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 // router.get('/project/:id', async (req, res) => {
