@@ -20,12 +20,6 @@ router.get("/frogs", async (req, res) => {
   }
 });
 
-router.get('/about', async (req, res) => {
-  res.render('About', {
-    logged_in: req.session.logged_in,
-  });
-});
-
 router.get('/lizards', async (req, res) => {
   try {
     const lizardData = await Animal.findAll({
@@ -73,6 +67,13 @@ router.get('/exotic', async (req, res) => {
     res.status(500).json(err)
   }
 });
+
+router.get('/about', async (req, res) => {
+  res.render('About', {
+    logged_in: req.session.logged_in,
+  });
+});
+
 
 // router.get('/project/:id', async (req, res) => {
 //   try {
