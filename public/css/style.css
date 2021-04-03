@@ -36,7 +36,8 @@ footer {
 .welcomeTurtle,
 .welcomeAll,
 .welcomeExotic,
-.animals {
+.animals,
+.login {
   animation: fade 1.5s ease;
 }
 
