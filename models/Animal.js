@@ -1,5 +1,5 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Animal extends Model {}
 
@@ -31,14 +31,18 @@ Animal.init(
     category: {
       type: DataTypes.STRING,
       allowNull: false,
-    }
+    },
+    img: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'animal',
+    modelName: "animal",
   }
 );
 
