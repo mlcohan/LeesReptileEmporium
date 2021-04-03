@@ -49,6 +49,31 @@ router.get('/snakes', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.get('/turtles', async (req, res) => {
+  try {
+    const turtleData = await Animal.findAll({
+      where: { category: 'turtle' },
+    });
+    const turtles = turtleData.map((turtle) => turtle.get({ plain: true }));
+    res.render('turtle', { turtles });
+  } catch (err) {
+    res.status(500).json(err)
+  }
+});
+
+router.get('/exotic', async (req, res) => {
+  try {
+    const exoticData = await Animal.findAll({
+      where: { category: 'exotic' },
+    });
+    const exotics = exoticData.map((exotic) => exotic.get({ plain: true }));
+    res.render('exotic', { exotics });
+  } catch (err) {
+    res.status(500).json(err)
+  }
+});
+
 // router.get('/project/:id', async (req, res) => {
 //   try {
 //     const projectData = await Project.findByPk(req.params.id, {
