@@ -244,7 +244,7 @@ nav a:hover {
 
 .welcome {
   min-height: 90vh;
-  background: url(/Project-frontend/img/frogs/frogwallpaper.jpg);
+  background: url(../img/frogs/frogwallpaper.jpg);
   background-position: center;
   background-size: cover;
   position: relative;

@@ -20,6 +20,18 @@ router.get("/frogs", async (req, res) => {
   }
 });
 
+router.get("/lizards", async (req, res) => {
+  try {
+    const lizardData = await Animal.findAll({
+      where: { category: "lizard" },
+    });
+    const lizards = lizardData.map((lizard) => lizard.get({ plain: true }));
+    res.render("lizard", { lizards });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 // router.get('/project/:id', async (req, res) => {
 //   try {
 //     const projectData = await Project.findByPk(req.params.id, {
