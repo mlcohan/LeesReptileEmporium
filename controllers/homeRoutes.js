@@ -74,6 +74,13 @@ router.get('/about', async (req, res) => {
   });
 });
 
+router.get('/all', async (req, res) => {
+  try {
+
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 // router.get('/project/:id', async (req, res) => {
 //   try {
