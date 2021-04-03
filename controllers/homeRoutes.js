@@ -20,6 +20,35 @@ router.get("/frogs", async (req, res) => {
   }
 });
 
+router.get('/about', async (req, res) => {
+  res.render('About', {
+    logged_in: req.session.logged_in,
+  });
+});
+
+router.get('/lizards', async (req, res) => {
+  try {
+    const lizardData = await Animal.findAll({
+      where: { category: 'lizard' },
+    });
+    const lizards = lizardData.map((lizard) => lizard.get({ plain: true }));
+    res.render('lizard', { lizards });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/snakes', async (req, res) => {
+  try {
+    const snakeData = await Animal.findAll({
+      where: { category: 'snake' },
+    });
+    const snakes = snakeData.map((snake) => snake.get({ plain: true }));
+    res.render('snake', { snakes });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 // router.get('/project/:id', async (req, res) => {
 //   try {
 //     const projectData = await Project.findByPk(req.params.id, {
