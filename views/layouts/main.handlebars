@@ -30,7 +30,7 @@
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./html/about.html">About Us</a>
+            <a class="nav-link" href="/about">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -39,21 +39,18 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="/all">All</a>
               </li>
               <li>
                 <a class="dropdown-item" href="/frogs">Frogs</a>
               </li>
               <li>
-                <a class="dropdown-item" href="./html/lizard.html">Lizards</a>
+                <a class="dropdown-item" href="/lizards">Lizards</a>
               </li>
-              <li><a class="dropdown-item" href="#">Snakes</a></li>
-              <li><a class="dropdown-item" href="#">Turtles</a></li>
-              <li><a class="dropdown-item" href="#">Exotic</a></li>
+              <li><a class="dropdown-item" href="/snakes">Snakes</a></li>
+              <li><a class="dropdown-item" href="/turtles">Turtles</a></li>
+              <li><a class="dropdown-item" href="/exotic">Exotic</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Fan Chat</a>
           </li>
           <li class="nav-item">
             {{#if loggedIn}}
@@ -82,7 +79,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
-  <script src="app.js"></script>
+  <script src="../../public/js/app.js"></script>
 
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>

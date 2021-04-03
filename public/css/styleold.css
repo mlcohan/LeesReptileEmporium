@@ -33,9 +33,6 @@ footer {
 .welcome,
 .welcomeLizard,
 .welcomeSnake,
-.welcomeTurtle,
-.welcomeAll,
-.welcomeExotic,
 .animals {
   animation: fade 1.5s ease;
 }
@@ -77,7 +74,7 @@ nav a:hover {
 
 .main {
   min-height: 90vh;
-  background: url(../img/jungle.jpg);
+  background: url(./img/jungle.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -130,7 +127,7 @@ nav a:hover {
 
 .aboutUs {
   min-height: 90vh;
-  background: url(../img/leaves.jpg);
+  background: url(/img/leaves.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -253,17 +250,9 @@ nav a:hover {
   position: relative;
 }
 
-.welcomeAll {
-  min-height: 90vh;
-  background: url(../img/jungle2.jpg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
 .welcomeLizard {
   min-height: 90vh;
-  background: url(../img/lizards/lizardwallpaper.jpg);
+  background: url(/Project-frontend/img/lizards/lizardwallpaper.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -271,7 +260,7 @@ nav a:hover {
 
 .welcomeSnake {
   min-height: 90vh;
-  background: url(../img/snakes/snakewallpaper.jpg);
+  background: url(/Project-frontend/img/snakes/snakewallpaper.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -279,15 +268,7 @@ nav a:hover {
 
 .welcomeTurtle {
   min-height: 90vh;
-  background: url(../img/turtles/turtlewallpaper.jpg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.welcomeExotic {
-  min-height: 90vh;
-  background: url(../img/exotic/exoticwall.jpg);
+  background: url(/Project-frontend/img/turtles/turtlewallpaper.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -306,7 +287,6 @@ nav a:hover {
   color: white;
   justify-self: flex-start;
   text-shadow: 0px 2px black;
-  margin-top: 2rem;
 }
 
 .animalName p {
@@ -349,14 +329,6 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
-  cursor: pointer;
-  transition: all ease 0.5s;
-}
-
-.display:hover {
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
-  background: lightgrey;
 }
 
 .display img {
@@ -407,40 +379,6 @@ nav a:hover {
 .reviewCard p {
   font-weight: bolder;
   margin-top: 1rem;
-}
-
-/* Login */
-
-.login {
-  min-height: 90vh;
-  width: 50%;
-  margin: auto;
-}
-
-.row {
-  min-height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.col-md-6 {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-  margin: 1rem;
-}
-
-.form {
-  width: 50%;
-}
-
-.form button {
-  margin: 1rem 0rem;
-}
-
-.form-group label {
-  margin: 1rem;
 }
 /* KeyFrames */
 
