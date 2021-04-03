@@ -4,21 +4,24 @@
     "description": "This species is regarded as the smallest of all the crocodilian species, reaching an adult size of about 5 feet. They are most active at night, and in captivity you'll tend not to see much activity nor have much feeding success during the day.  Reports on their temperament vary.",
     "price": 400,
     "quantity": 5,
-    "category": "exotic"
+    "category": "exotic",
+    "img": "/img/exotic/dwarf.png"
   },
   {
     "name": "Argentine Tegu",
     "description": "The Argentine Tegu grows up to four feet and has a wonderful, often playful, personality. They can live up to 20 years and are powerful and athletic. Yet, despite all that power, they are unlikely to bite. This Tegu is trainable and it is possible to take them out on a harness with some work.",
     "price": 300,
     "quantity": 5,
-    "category": "exotic"
+    "category": "exotic",
+    "img": "/img/exotic/tegu.png"
   },
   {
     "name": "Asian Water Monitor",
     "description": "If you’re looking for the best large lizard that you can actually bond and play with, look no further than the Asian Water Monitor. As far as temperaments go, the Asian Water Monitor surpasses all the other giant monitors. They are playful and curious. However, while they still have the potential to harm, it is unlikely they would intentionally hurt you. In addition to a fantastic personality, Asian Water monitors are VERY intelligent.",
     "price": 200,
     "quantity": 5,
-    "category": "exotic"
+    "category": "exotic",
+    "img": "/img/exotic/asianWater.png"
   },
   {
     "name": "Green and Black Dart Frog",
@@ -34,7 +37,7 @@
     "price": 50,
     "quantity": 5,
     "category": "frog",
-    "img": "/img/frogs/pacman.webp"
+    "img": "/img/frogs/pacman.png"
   },
   {
     "name": "Tomato Frog",
@@ -65,104 +68,119 @@
     "description": "The Bearded Dragon is an all-round popular, outgoing, and easy-to-care-for lizard. Bearded Dragons are omnivorous, consuming a variety of fruits and insects. These dragons are as sociable as lizards get. Most of the time, they tend to enjoy interactions with their owners. They grow 1-2 feet in length and generally live to 10-15 years.",
     "price": 60,
     "quantity": 5,
-    "category": "lizard"
+    "category": "lizard",
+    "img": "/img/lizards/beardDragon.png"
   },
   {
     "name": "Leopard Gecko",
     "description": "Leopard Geckos are coated with a pattern of dark brown spots. They are entirely insectivorous and require calcium supplements. Leopard Geckos are generally very docile and their ease of care makes them suitable for beginners. They are smaller than the Bearded Dragon, growing to a foot at most, and live about 15 years.",
     "price": 40,
     "quantity": 5,
-    "category": "lizard"
+    "category": "lizard",
+    "img": "/img/lizards/leopardgecko.png"
   },
   {
     "name": "Caiman Lizard",
     "description": "Caiman Lizards are very big as they can reach 2-5 feet long and will need an enclosure that is big enough to house them properly. They mostly eat a carnivorous diet and make a great beginner lizard for someone willing to care for them from a distance. They live up to 10 years.",
     "price": 900,
     "quantity": 5,
-    "category": "lizard"
+    "category": "lizard",
+    "img": "/img/lizards/caiman.png"
   },
   {
     "name": "Chinese Water Dragon",
     "description": "Water Dragons require large enclosures, closely regulated temperatures and a mostly insectivore diet, with some leafy vegetables. They must be socialized from an early age to become accustomed to handling. Once socialized, they are typically very friendly and enjoy handling. They have an average lifespan of 15-20 years.",
     "price": 80,
     "quantity": 5,
-    "category": "lizard"
+    "category": "lizard",
+    "img": "/img/lizards/chinese.png"
   },
   {
     "name": "Blue-Tongue Skink",
     "description": "The Blue-Tongue Skinks are omnivorous, eating mostly fruits with some meat. Although they need a fruit and vegetable diet, meat should also be provided, consisting of big worms or mice.  Blue-Tongue Skinks are generally very docile, quiet, and easily tamed. Overall, their ease of care and docility make them good beginner reptiles.",
     "price": 250,
     "quantity": 5,
-    "category": "lizard"
+    "category": "lizard",
+    "img": "/img/lizards/blueTongue.png"
   },
   {
     "name": "Corn Snake",
     "description": "The Corn Snake is the most popular beginner snake. Baby Corns are 10-12 inches long and grow to 3-4 feet long. Corn snakes can live up to 20 years. Overall, they have a very easy care regimen and a very gentle temperament that makes handling and taking care of them manageable, even for new snake owners!",
     "price": 100,
     "quantity": 5,
-    "category": "snake"
+    "category": "snake",
+    "img": "/img/snakes/corn.png"
   },
   {
     "name": "Ball Python",
     "description": "Ball Pythons get their name because of the “ball” they like to curl up in to feel safe. Adults are usually about 3.5-5 feet in length and can live 20-30 years. Ball Pythons are docile creatures and are reluctant to bite. These Pythons eat mice, but it is their dietary-pickiness that makes beginner herpetologists wary.",
     "price": 200,
     "quantity": 5,
-    "category": "snake"
+    "category": "snake",
+    "img": "/img/snakes/ballPython.png"
   },
   {
     "name": "Rainbow Boa",
     "description": "The Rainbow Boa is not recommended to beginners for its shy and nippy behavior. They require specialized husbandry and specific tank conditions of high heat and humidity because of their natural tropical habitat. They may be nippy and shy as babies, but the right Rainbow Boa can tame down as an adult with frequent handling.",
     "price": 600,
     "quantity": 5,
-    "category": "snake"
+    "category": "snake",
+    "img": "/img/snakes/rainbow.png"
   },
   {
     "name": "California King Snake",
     "description": "The California King is the most popular subspecies of King Snake, growing to 2.5-5 feet long. They eat mice in captivity and can live up to 20 years. These snakes have basic care requirements with the benefit of being easy to handle with their calm temperament.",
     "price": 170,
     "quantity": 5,
-    "category": "snake"
+    "category": "snake",
+    "img": "/img/snakes/king.png"
   },
   {
     "name": "Milk Snake",
     "description": "The Milk Snake are native to the US and Mexico and commonly have black, white, and red body rings. Often found in the woods or rocky areas, they do not necessarily like to soak up sun, but rather enjoy soaking up heat from rocks and logs, so an under tank heater may be better for them.",
     "price": 200,
     "quantity": 5,
-    "category": "snake"
+    "category": "snake",
+    "img": "/img/snakes/milk.png"
   },
   {
     "name": "Red-Eared Slider",
     "description": "Red-eared sliders can live up to 20 years in captivity. As they grow, they will need a giant tank and a lot of constant care. Aquatic turtles, including red eared sliders, will need special lighting, animal- and plant-based foods, and continuous cleaning and maintenance.",
     "price": 80,
     "quantity": 5,
-    "category": "turtle"
+    "category": "turtle",
+    "img": "/img/turtles/redEar.png"
   },
   {
     "name": "False Map Turtle",
     "description": "False Map Turtles are great swimmers and love to dive into deep water. False Maps have a patterned skin that resembles a contour map. They will spend most of their time basking. They need frequent water filtering but otherwise are very easy to care for.",
     "price": 50,
     "quantity": 5,
-    "category": "turtle"
+    "category": "turtle",
+    "img": "/img/turtles/falseMap.png"
   },
   {
     "name": "Yellow Mud Turtle",
     "description": "Yellow Mud turtles are low-maintenance and hardy. These little guys stay small too. Adults are under five inches in size. They like spending time both on land and in water. Yellow Muds are hardy and tolerant of many climates. If water starts to dry up, they bury themselves beneath the mud.",
     "price": 400,
     "quantity": 5,
-    "category": "turtle"
+    "category": "turtle",
+    "img": "/img/turtles/yellow.png"
   },
   {
     "name": "Chinese Softshell Turtle",
     "description": "Chinese Softshell Turtles have a shell that is softer than the typical hard shell. Their upkeep can be hard because of their soft shell. Any beginner will need to be dedicated to care for them and keep their tank clean.",
     "price": 50,
     "quantity": 5,
-    "category": "turtle"
+    "category": "turtle",
+    "img": "/img/turtles/softshell.png"
   },
   {
     "name": "African Sideneck Turtle",
     "description": "The African Sideneck lives happily in captivity and is easy to maintain. They can also use their long necks to flip themselves over if they get stuck on their back. This animal can be very entertaining to watch as they dive into the water and come up to bask.",
     "price": 100,
     "quantity": 5,
-    "category": "turtle"
+    "category": "turtle",
+    "img": "/img/turtles/sideneck.png"
   }
 ]

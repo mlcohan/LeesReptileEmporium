@@ -1,9 +1,9 @@
-<section class="welcome">
+<section class="welcomeExotic">
     <div class="animalName">
-        <h2 id="welcomeText">Frogs</h2>
+        <h2 id="welcomeText">Exotic</h2>
         <p>
-            "Don't be a fish; be a frog. Swim in the water and jump when you hit
-            ground." -David Lee
+            "People always like things that seem exotic." <br />
+            -David Lee
         </p>
     </div>
 </section>
@@ -12,12 +12,12 @@
         <h2>Our Collection</h2>
     </div>
     <div class="holder">
-        {{#each frogs as |frog|}}
+        {{#each exotics as |exotic|}}
         <div class="display">
-            <img src={{frog.img}} alt="green-and-black-dartfrog" />
-            <h2>{{frog.name}}</h2>
-            <p>${{frog.price}}</p>
-            <p>Stock: {{frog.quantity}}</p>
+            <img src={{exotic.img}} alt="green-and-black-dartexotic" />
+            <h2>{{exotic.name}}</h2>
+            <p>${{exotic.price}}</p>
+            <p>Stock: {{exotic.quantity}}</p>
         </div>
         {{/each}}
     </div>
