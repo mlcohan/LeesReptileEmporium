@@ -3,12 +3,16 @@ const { Animal, Cart, User } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
+  res.render('homepage', { 
+    logged_in: req.session.logged_in 
+  })
+});
 
-    res.render('homepage', { 
-      logged_in: req.session.logged_in 
-    });
-  } 
-);
+router.get('/frogs', async (req, res) => {
+  res.render('frogs', { 
+    logged_in: req.session.logged_in 
+  });
+});
 
 // router.get('/project/:id', async (req, res) => {
 //   try {

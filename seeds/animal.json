@@ -24,7 +24,8 @@
         "description": "The Green and Black Dart Frog is a species of Poison Dart family. This species is found in Central and South America and thrives on the rainforest floor. These little frogs are usually a green and black color. It is their bright colors that warn predators of their poison glands. Their name can sometimes keep beginners from adopting them. But surprisingly they make a great beginner frog. These frogs are small, entertaining and energetic. They are normally searching for food and hopping around – one of their favorite foods is ants. A committed beginner can care for one provided they are aware of the risks of handling one.",
         "price": 80,
         "quantity": 5,
-        "category": "frog"
+        "category": "frog",
+        "img": "/img/frogs/gbdartfrog.png"
     },
     {
         "name": "Pacman Frog",
