@@ -11,10 +11,10 @@
     <div class="collection">
         <h2>Our Collection</h2>
     </div>
-    <div class="holder">
+    <div class="holder" id="animals">
         {{#each turtles as |turtle|}}
-        <div class="display">
-            <img src={{turtle.img}} alt="green-and-black-dartturtle" />
+        <div class="display addCart" data-id="{{turtle.id}}" data-name="{{turtle.name}}">
+            <img src={{turtle.img}} alt="turtle" />
             <h2>{{turtle.name}}</h2>
             <p>${{turtle.price}}</p>
             <p>Stock: {{turtle.quantity}}</p>
@@ -77,3 +77,5 @@
         </div>
     </div>
 </section>
+
+<script src="/js/addtocart.js"></script>
