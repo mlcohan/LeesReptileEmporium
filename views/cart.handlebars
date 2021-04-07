@@ -1,2 +1,14 @@
-{{!-- User Profile --}}
-<script src="./js/profile.js"></script>
+<section class="checkout">
+      <div class="cart-title">
+        <h2>Animals in Cart</h2>
+      </div>
+      <div class="items">
+        {{#each user.shopping_cart as |animal|}}
+        <div class="purchased">
+            <img src={{animal.img}} alt="{{animal.name}}" />
+            <h2>{{animal.name}}</h2>
+            <p>${{animal.price}}</p>
+            <p>Quantity: {{animal.cart.quantity}}</p>
+        </div>
+        {{/each}}
+</section>

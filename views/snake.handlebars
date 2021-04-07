@@ -11,10 +11,10 @@
     <div class="collection">
         <h2>Our Collection</h2>
     </div>
-    <div class="holder">
+    <div class="holder" id="animals">
         {{#each snakes as |snake|}}
-        <div class="display">
-            <img src={{snake.img}} alt="green-and-black-dartsnake" />
+        <div class="display addCart" data-id="{{snake.id}}" data-name="{{snake.name}}">
+            <img src={{snake.img}} alt="snake" />
             <h2>{{snake.name}}</h2>
             <p>${{snake.price}}</p>
             <p>Stock: {{snake.quantity}}</p>
@@ -77,3 +77,5 @@
         </div>
     </div>
 </section>
+
+<script src="/js/addtocart.js"></script>
