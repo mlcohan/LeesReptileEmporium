@@ -36,7 +36,8 @@ footer {
 .welcomeTurtle,
 .welcomeAll,
 .welcomeExotic,
-.animals {
+.animals,
+.login {
   animation: fade 1.5s ease;
 }
 
@@ -66,11 +67,12 @@ nav a:hover {
 }
 
 .navbar-toggler {
-  background: black;
+  background: white;
 }
 
 .navbar-toggler-icon {
-  background: white;
+  border-radius: 15px;
+  background: black;
 }
 
 /* Homepage */
@@ -364,6 +366,8 @@ nav a:hover {
   height: 375px;
 }
 
+/* Reviews */
+
 .reviews {
   min-height: 100vh;
 }
@@ -442,6 +446,38 @@ nav a:hover {
 .form-group label {
   margin: 1rem;
 }
+
+/* Shopping Cart */
+
+.checkout {
+  min-height: 90vh;
+}
+
+.cart-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.purchased {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 1rem 8rem;
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+.purchased img {
+  height: 200px;
+  width: 200px;
+}
 /* KeyFrames */
 
 @keyframes fade {
@@ -459,5 +495,152 @@ nav a:hover {
   }
   to {
     transform: rotateZ(30deg);
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  /* Homepage */
+  .main h1 {
+    text-align: center;
+  }
+  .main p {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  /* About Us */
+  .text {
+    margin-top: 3rem;
+  }
+  .text2 {
+    text-align: center;
+  }
+  .davidImg {
+  }
+
+  /* All */
+  .animalName p {
+    width: 60%;
+    right: 2rem;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  /* Home Page */
+  .main h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .main p {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .browse {
+    margin-bottom: 4rem;
+  }
+  /* About us */
+  .davidImg img {
+    height: 500px;
+  }
+
+  .text {
+    margin-top: 3rem;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+
+  .text2 p {
+    font-size: 1.2rem;
+  }
+  /* All */
+
+  .animalName h2 {
+    text-align: center;
+  }
+  .animalName p {
+    width: 60%;
+    font-size: 1.5rem;
+    right: 5rem;
+    opacity: 1;
+    text-align: center;
+  }
+  .display img {
+    width: 300px;
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Homepage */
+  .main h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .main p {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .browse {
+    margin-bottom: 4rem;
+  }
+  /* About us */
+  .davidImg img {
+    height: 500px;
+  }
+
+  .text {
+    margin-top: 3rem;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+
+  .text2 p {
+    font-size: 1.2rem;
+  }
+
+  /* All */
+  .animalName {
+    text-align: center;
+  }
+
+  .animalName h2 {
+    font-size: 4rem;
+  }
+
+  .animalName p {
+    width: 60%;
+    font-size: 1.5rem;
+    right: 5rem;
+    opacity: 1;
+  }
+
+  .display img {
+    width: 300px;
+    height: 275px;
+  }
+
+  .display h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .animalName p {
+    top: 15rem;
+    right: 4rem;
+  }
+  .title h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .reviewCard p {
+    text-align: center;
   }
 }
