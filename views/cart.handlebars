@@ -6,7 +6,7 @@
         {{#each user.shopping_cart as |animal|}}
         <div class="purchased">
             <img src={{animal.img}} alt="{{animal.name}}" />
-            <h2>{{animal.name}}</h2>
+            <h6>{{animal.name}}</h6>
             <p>${{animal.price}}</p>
             <p>Quantity: {{animal.cart.quantity}}</p>
         </div>
