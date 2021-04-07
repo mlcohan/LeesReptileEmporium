@@ -49,7 +49,9 @@ Lee's Reptile Emporium is your one stop online shop for new pets ranging from a 
 https://github.com/mlcohan/team2<br>
 https://lees-reptile-emporium.herokuapp.com/
 
+
 ## Contributors
+
 
 This app brought to you by Team 2:
 * Mary Cohan https://github.com/mlcohan
