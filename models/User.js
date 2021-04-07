@@ -39,12 +39,16 @@ User.init(
   {
     hooks: {
       beforeCreate: async (newUserData) => {
-        newUserData.password = await bcrypt.hash(newUserData.password, 10);
+        if (newUserData.changed('password')) {
+          newUserData.password = await bcrypt.hash(newUserData.password, await bcrypt.genSalt(10));
+        }
         return newUserData;
       },
       beforeUpdate: async (updatedUserData) => {
-        updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
-        return updatedUserData;
+        if (newUserData.changed('password')) {
+          newUserData.password = await bcrypt.hash(newUserData.password, await bcrypt.genSalt(10));
+        }
+        return newUserData;
       },
     },
     sequelize,

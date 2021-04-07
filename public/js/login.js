@@ -37,7 +37,7 @@ const signupFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.replace('/cart');
     } else {
       alert(response.statusText);
     }
