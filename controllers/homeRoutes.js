@@ -86,10 +86,10 @@ router.get("/login", async (req, res) => {
 
 router.get('/cart', withAuth, async (req, res) => {
   const user = await User.findByPk(
-    req.sessions.user_id,
+    req.session.user_id,
     {
       include: [
-        'shoppingCart',
+        'shopping_cart',
       ]
     }
   );

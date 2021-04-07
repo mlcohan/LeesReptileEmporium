@@ -79,7 +79,7 @@ nav a:hover {
 
 .main {
   min-height: 90vh;
-  background: url(./img/jungle.jpg);
+  background: url(/img/jungle.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -472,6 +472,8 @@ nav a:hover {
   padding: 1rem 8rem;
   border-radius: 15px;
   margin: 1rem;
+  width: 456px;
+  height: 312px;
 }
 
 .purchased img {
