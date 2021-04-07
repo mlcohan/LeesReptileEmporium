@@ -84,4 +84,19 @@ router.get("/login", async (req, res) => {
   res.render("login");
 });
 
+router.get('/cart', withAuth, async (req, res) => {
+  const user = await User.findByPk(
+    req.sessions.user_id,
+    {
+      include: [
+        'shoppingCart',
+      ]
+    }
+  );
+  console.log(user.toJSON());
+  res.render('cart', {
+    user: user.get({ plain: true })
+  })
+});
+
 module.exports = router;

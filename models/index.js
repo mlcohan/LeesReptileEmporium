@@ -3,19 +3,19 @@ const Animal = require('./Animal');
 const Cart = require('./Cart');
 
 User.belongsToMany(Animal, {
-  through: { 
+  through: {
     model: Cart,
     unique: false
   },
-  as: 'shopping_cart'
+  as: 'shoppingCart'
 })
 
 Animal.belongsToMany(User, {
-  through: { 
+  through: {
     model: Cart,
     unique: false
   },
-  as: 'users_shopping'
+  as: 'usersShopping'
 });
 
 module.exports = { User, Animal, Cart };
