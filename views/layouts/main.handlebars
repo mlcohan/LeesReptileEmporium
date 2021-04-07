@@ -53,7 +53,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            {{#if loggedIn}}
+            {{#if logged_in}}
             <a class="link nav-link" href="/" id="logout"><i class="fas fa-sign-out-alt"></i></a>
             {{else}}
             <a class="link nav-link" href="/login"><i class="fas fa-user"></i></a>
@@ -81,7 +81,7 @@
     crossorigin="anonymous"></script>
   <script src="./js/app.js"></script>
 
-  {{#if loggedIn}}
+  {{#if logged_in}}
   <script src="./js/logout.js"></script>
   {{/if}}
 

@@ -364,6 +364,7 @@ nav a:hover {
 .display img {
   width: 500px;
   height: 375px;
+  pointer-events: none;
 }
 
 /* Reviews */
