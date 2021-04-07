@@ -362,9 +362,9 @@ nav a:hover {
 }
 
 .display img {
+  pointer-events: none;
   width: 500px;
   height: 375px;
-  pointer-events: none;
 }
 
 /* Reviews */
@@ -434,6 +434,10 @@ nav a:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .form {
@@ -442,6 +446,19 @@ nav a:hover {
 
 .form button {
   margin: 1rem 0rem;
+  background: #98453b;
+  border: none;
+}
+
+.form button:hover {
+  background: #d46e63;
+  color: black;
+}
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .form-group label {
@@ -475,6 +492,17 @@ nav a:hover {
   margin: 1rem;
   width: 456px;
   height: 312px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+
+.purchased:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+  background: lightgrey;
 }
 
 .purchased img {
@@ -631,6 +659,12 @@ nav a:hover {
 
   .display h2 {
     text-align: center;
+  }
+
+  /* Cart */
+
+  .purchased {
+    width: 360px;
   }
 }
 
