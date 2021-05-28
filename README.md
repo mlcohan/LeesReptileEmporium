@@ -46,7 +46,7 @@ Lee's Reptile Emporium is your one stop online shop for new pets ranging from a 
 
 ## Links
 
-https://github.com/mlcohan/team2<br>
+https://github.com/mlcohan/LeesReptileEmporium<br>
 https://lees-reptile-emporium.herokuapp.com/
 
 
